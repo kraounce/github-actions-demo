@@ -1,0 +1,20 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "",
+    "main": "src/app.js",
+  "scripts": {
+  "start": "node src/app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraounce/github-actions-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraounce/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/kraounce/github-actions-demo#readme"
+}
