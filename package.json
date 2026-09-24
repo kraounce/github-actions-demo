@@ -2,10 +2,11 @@
   "name": "github-actions-demo",
   "version": "1.0.0",
   "description": "",
-    "main": "src/app.js",
+  "main": "src/app.js",
   "scripts": {
-  "start": "node src/app.js"
-},
+    "start": "node src/app.js",
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kraounce/github-actions-demo.git"
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/kraounce/github-actions-demo/issues"
   },
-  "homepage": "https://github.com/kraounce/github-actions-demo#readme"
+  "homepage": "https://github.com/kraounce/github-actions-demo#readme",
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "lefthook": "^2.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
