@@ -2,8 +2,6 @@ const express = require("express");
 
 const app = express();
 
-const unused = "CI test";
-
 app.get("/", (req, res) => {
   res.send("CI/CD Pipeline Working!");
 });
