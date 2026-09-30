@@ -24,7 +24,12 @@ jobs:
   
       - name: Check environment
         run: echo "NODE_ENV is $NODE_ENV"
-        
+
+      - name: Check secret
+        env:
+          DEMO_SECRET: ${{ secrets.DEMO_SECRET }}
+        run: echo "Secret is available"
+
       - name: Install dependencies
         run: npm ci
 
